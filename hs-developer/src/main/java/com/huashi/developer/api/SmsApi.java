@@ -147,6 +147,7 @@ public class SmsApi extends BasicApiSupport {
 
             return smsPrervice.getBalance(model.getUserId());
         } catch (Exception e) {
+        	e.printStackTrace();
             // 如果失败则存储错误日志
             String code = CommonApiCode.COMMON_SERVER_EXCEPTION.getCode();
             if (e instanceof ValidateException) {

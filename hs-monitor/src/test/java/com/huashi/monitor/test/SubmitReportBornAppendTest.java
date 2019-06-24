@@ -1,9 +1,9 @@
 package com.huashi.monitor.test;
 
+import org.apache.dubbo.config.spring.ReferenceBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 
-import com.alibaba.dubbo.config.spring.ReferenceBean;
 import com.huashi.sms.record.service.ISmsMtDeliverService;
 
 public class SubmitReportBornAppendTest {

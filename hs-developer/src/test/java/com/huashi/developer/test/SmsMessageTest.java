@@ -27,8 +27,8 @@ public class SmsMessageTest {
 
 	@Before
 	public void before() {
-//		url = "http://api.hspaas.cn:8080/sms/send";
-		url = "https://api.hspaas.cn/sms/send";
+		url = "http://127.0.0.1:8080/sms/send";
+//		url = "https://api.hspaas.cn/sms/send";
 //		url = "http://127.0.0.1:8080/mms/send";
 
 //		String appkey = "hsjXxJ2gO75iOK";
@@ -37,13 +37,13 @@ public class SmsMessageTest {
 //		String appkey = "hsjXxJ2gO75iOK";
 //		String password = "e3293685e23847fce6a8afc532de6dac";
 		//华时boss
-		String appkey = "hsXBrANoesxLLu";
-		String password = "df2b6e29685a422bd2a9117786280e8f";
+		String appkey = "hszmAmCyXKC8H5";
+		String password = "c779604cbfd04461da7432b8b2d99dd4";
 
 
 //		String mobile = "158" + RandomUtil.getRandomNum(8);
 //		String mobile = "18368031231";
-		String mobile = "15868193450";
+		String mobile = "13262669725";
 
 		String time = System.currentTimeMillis() + "";
 

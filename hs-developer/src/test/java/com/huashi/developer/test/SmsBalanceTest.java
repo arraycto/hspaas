@@ -26,10 +26,10 @@ public class SmsBalanceTest {
 
 	@Before
 	public void before() {
-		url = "http://localhost:8080/sms/balance";
+		url = "http://127.0.0.1:8080/sms/balance";
 		
-		String appkey = "hsjXxJ2gO75iOK1";
-		String password = "e3293685e23847fce6a8afc532de6dac";
+		String appkey = "hszmAmCyXKC8H5";
+		String password = "c779604cbfd04461da7432b8b2d99dd4";
 		
 		String time = System.currentTimeMillis() + "";
 		
