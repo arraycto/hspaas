@@ -29,8 +29,8 @@ public class ControllerMethodInvokeLogPrint {
 	@Pointcut("within(@org.springframework.stereotype.Controller *)")
 	public void controllerBean(){}
 	
-	@Pointcut("execution(* org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(..))")
-	public void hh(){}
+//	@Pointcut("execution(* org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(..))")
+//	public void hh(){}
 	
 	@Pointcut("execution(* *(..))")
 	public void methodPointcut(){}

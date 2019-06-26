@@ -132,6 +132,7 @@ public class IndexController extends BaseController {
             session.setAttribute(WebConstants.LOGIN_USER_SESSION_KEY, user);
             return true;
         } catch (LoginException e) {
+        	e.printStackTrace();
             return false;
         }
 

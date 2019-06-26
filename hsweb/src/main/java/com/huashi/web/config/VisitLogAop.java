@@ -30,7 +30,8 @@ public class VisitLogAop {
 	private AtomicLong startTime = new AtomicLong();
 	private Logger logger = LoggerFactory.getLogger(getClass());
 
-	@Pointcut("execution(public * com.huashi.web.controller..*.*(..))")
+//	@Pointcut("execution(public * com.huashi.web.controller..*.*(..))")
+	@Pointcut("execution(public * com.huashi.web.controller..*(..))")
 	public void pointcut() {
 	}
 
