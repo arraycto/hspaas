@@ -1,8 +1,15 @@
 package com.huashi.sms.passage.domain;
 
-public class SmsPassageProvince {
+import java.io.Serializable;
 
-    public SmsPassageProvince(){
+public class SmsPassageProvince implements Serializable{
+
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public SmsPassageProvince(){
 
     }
 

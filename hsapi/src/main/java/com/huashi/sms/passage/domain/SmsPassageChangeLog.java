@@ -1,8 +1,15 @@
 package com.huashi.sms.passage.domain;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class SmsPassageChangeLog {
+public class SmsPassageChangeLog implements Serializable{
+
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
     private Integer id;
 
     private Integer passageId;

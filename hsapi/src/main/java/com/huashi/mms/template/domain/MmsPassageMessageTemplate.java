@@ -1,8 +1,14 @@
 package com.huashi.mms.template.domain;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class MmsPassageMessageTemplate {
+public class MmsPassageMessageTemplate implements Serializable {
+
+    /**
+	 *
+	 */
+	private static final long serialVersionUID = 1L;
 
     private Long    id;
 
