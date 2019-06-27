@@ -4,14 +4,14 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MmsPassageGroup  implements Serializable{
+public class MmsPassageGroup implements Serializable{
 
     /**
-	 *
+	 * 
 	 */
 	private static final long serialVersionUID = 1L;
 
-	private Integer                     id;
+    private Integer                     id;
 
     private String                      passageGroupName;
 

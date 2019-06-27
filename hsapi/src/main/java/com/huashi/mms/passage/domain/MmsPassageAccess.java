@@ -5,14 +5,14 @@ import java.util.Date;
 
 import com.huashi.common.user.model.UserModel;
 
-public class MmsPassageAccess  implements Serializable{
+public class MmsPassageAccess implements Serializable{
 
     /**
-	 *
+	 * 
 	 */
 	private static final long serialVersionUID = 1L;
 
-	private Integer   id;
+    private Integer   id;
 
     private Integer   userId;
 

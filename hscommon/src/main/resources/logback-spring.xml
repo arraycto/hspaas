@@ -116,7 +116,7 @@
 	<logger name="c.a.dubbo.registry.zookeeper" level="WARN" />
 
 	<!-- 定义日志的级别 引用appender -->
-	<root level="debug">
+	<root level="info">
 		<appender-ref ref="consoleAppender" />
 		<appender-ref ref="infoAppender" />
 		<appender-ref ref="warnAppender" />

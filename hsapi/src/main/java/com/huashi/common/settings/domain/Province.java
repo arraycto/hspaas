@@ -1,18 +1,18 @@
 package com.huashi.common.settings.domain;
 
-import com.huashi.sms.passage.domain.SmsPassageGroupDetail;
-
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+
+import com.huashi.sms.passage.domain.SmsPassageGroupDetail;
 
 public class Province implements Serializable{
 	/**
 	 *
 	 */
 	private static final long serialVersionUID = 1L;
-
+	
 	private Integer id;
 
 	private Integer code;

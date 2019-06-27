@@ -14,14 +14,14 @@ import com.alibaba.fastjson.TypeReference;
 import com.huashi.common.passage.dto.ParseParamDto;
 import com.huashi.common.passage.dto.RequestParamDto;
 
-public class MmsPassageParameter  implements Serializable{
+public class MmsPassageParameter implements Serializable{
 
     /**
-	 *
+	 * 
 	 */
 	private static final long serialVersionUID = 1L;
 
-	private Integer id;
+    private Integer id;
 
     private Integer passageId;
 
