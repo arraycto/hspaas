@@ -1,5 +1,6 @@
 package com.huashi.mms.passage.domain;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -13,9 +14,14 @@ import com.alibaba.fastjson.TypeReference;
 import com.huashi.common.passage.dto.ParseParamDto;
 import com.huashi.common.passage.dto.RequestParamDto;
 
-public class MmsPassageParameter {
+public class MmsPassageParameter  implements Serializable{
 
-    private Integer id;
+    /**
+	 *
+	 */
+	private static final long serialVersionUID = 1L;
+
+	private Integer id;
 
     private Integer passageId;
 

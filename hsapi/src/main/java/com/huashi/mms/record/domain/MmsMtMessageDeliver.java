@@ -1,8 +1,14 @@
 package com.huashi.mms.record.domain;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class MmsMtMessageDeliver {
+public class MmsMtMessageDeliver implements Serializable {
+
+    /**
+	 *
+	 */
+	private static final long serialVersionUID = 1L;
 
     private Long    id;
 

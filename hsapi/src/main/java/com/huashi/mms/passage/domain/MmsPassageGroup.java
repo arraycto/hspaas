@@ -1,11 +1,17 @@
 package com.huashi.mms.passage.domain;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MmsPassageGroup {
+public class MmsPassageGroup  implements Serializable{
 
-    private Integer                     id;
+    /**
+	 *
+	 */
+	private static final long serialVersionUID = 1L;
+
+	private Integer                     id;
 
     private String                      passageGroupName;
 
