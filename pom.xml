@@ -421,11 +421,10 @@
             </dependency>
             
 			<dependency>
-			    <groupId>com.esotericsoftware</groupId>
-			    <artifactId>kryo</artifactId>
-			    <version>4.0.2</version>
+			  <groupId>org.apache.dubbo</groupId>
+			  <artifactId>dubbo-serialization-kryo</artifactId>
+			  <version>${dubbo.version}</version>
 			</dependency>
-			            
 
         </dependencies>
     </dependencyManagement>

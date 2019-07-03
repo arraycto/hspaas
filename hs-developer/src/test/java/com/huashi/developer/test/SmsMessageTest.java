@@ -27,7 +27,7 @@ public class SmsMessageTest {
 
 	@Before
 	public void before() {
-		url = "http://127.0.0.1:8080/sms/send";
+		url = "http://127.0.0.1:4030/sms/send";
 //		url = "http://172.28.222.130:4030/sms/send";
 //		url = "https://api.hspaas.cn/sms/send";
 //		url = "http://127.0.0.1:8080/mms/send";
@@ -59,7 +59,7 @@ public class SmsMessageTest {
 				.add("timestamp", time)
 				.add("mobile", mobile)
 				.add("content", content)
-				.add("attach", "test889")
+				.add("attach", "100866")
 				.add("extNumber", "333");
 	}
 
