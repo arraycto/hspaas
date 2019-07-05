@@ -1,5 +1,6 @@
 package com.huashi.mms.task.domain;
 
+import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 
@@ -8,7 +9,12 @@ import org.apache.commons.lang3.StringUtils;
 import com.huashi.common.user.model.UserModel;
 import com.huashi.mms.template.domain.MmsMessageTemplateBody;
 
-public class MmsMtTask {
+public class MmsMtTask implements Serializable {
+
+    /**
+	 *
+	 */
+	private static final long serialVersionUID = 1L;
 
     private Long                          id;
 

@@ -66,6 +66,7 @@ public class SystemConfigController extends BaseController {
     @AuthCode(code= {OperCode.OPER_CODE_1001002001})
     @ActionMode(type = EnumConstant.ActionType.JSON)
     public void update() {
+//    	SystemConfig config = getBean(SystemConfig.class);
         SystemConfig config = getModel(SystemConfig.class,"config");
         config.setModifyTime(new Date());
         Map<String,Object> resultMap = iSystemConfigService.update(config);
